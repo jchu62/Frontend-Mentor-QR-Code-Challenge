@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import qrcode from './image-qr-code.png';
 import './App.css';
 
@@ -7,21 +6,17 @@ function App() {
     <div className="App">
       <header className="header">
         <header className="box">
-        <img src={qrcode} className="logo" alt="logo" />
-        <p>
-          Improve your front-end skills by building projects
+        <box>
+        <img src={qrcode} className="logo" alt="QR Code" />
+        <p><boldtext>
+        Improve your front-end skills by building projects
+        </boldtext>
         </p>
-        <p>
-          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        <p><smallertext>          
+        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </smallertext>
         </p>
-        <a
-          className="link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        </box>
         </header>
       </header>
     </div>

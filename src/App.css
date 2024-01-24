@@ -3,7 +3,9 @@
 }
 
 .logo {
-size: "32x32"
+  width: 300px;
+  height: 300px;
+  border-radius:10px;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -13,20 +15,40 @@ size: "32x32"
 } */
 
 .header {
-  background-color: #282c34;
+  padding:1em;
+  background-color: hsl(212, 45%, 89%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(11px + 2vmin);
-  color: white;
+  color: #282c34;
 }
+
+.header boldtext {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.header smallertext {
+  color: hsl(212, 45%, 89%);
+  font-size: 20px;
+  font-weight: 400;
+}
+
 
 .link {
   color: #61dafb;
 }
 
+.box {
+  background-color: white;
+  border-style: hidden;
+  border-radius: 15px;
+  padding: 15px;
+  width: 300px;
+  height: 500px;
+}
 /* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
