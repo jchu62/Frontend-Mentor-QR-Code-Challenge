@@ -1,5 +1,6 @@
 {
   "name": "barcode",
+  "homepage":  "https://jchu62.github.io/Frontend-Mentor-QR-Code-Challenge/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
